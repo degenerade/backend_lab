@@ -25,6 +25,7 @@
   "homepage": "https://github.com/degenerade/backend_lab#readme",
   "dependencies": {
     "express": "^5.2.1",
+    "mariadb": "^3.5.2",
     "morgan": "^1.10.1"
   },
   "devDependencies": {

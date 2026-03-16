@@ -5,6 +5,8 @@ import { errorHandler } from './middleware/errorHandler.js'
 
 export const app = express()
 
+app.use(express.json())
+
 app.use(logger('dev', { immediate: true, skip: () => process.env.NODE_ENV === 'test' }))
 
 app.use('/', router)
